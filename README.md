@@ -1,4 +1,4 @@
-Machine Learning Practices with Imbalanced Dataset
+Machine Learning Practices with Imbalanced Dataset \n
 Overview 
 The goal of this project was to build a model to detect fraudulent credit card transactions. We examined credit card transactions in two days by European cardholders in September 2013. The dataset is highly unbalanced, where only 492 out of 284,807 transactions are frauds. SMOTE approach was selected to resample a balanced sample. The final logistic regression model yielded the best recall score of 94.9%.
 Business Understanding 
