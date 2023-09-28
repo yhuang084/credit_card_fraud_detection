@@ -7,7 +7,8 @@ The goal of this project was to build a model to detect fraudulent credit card t
 Fraud detection is essential for companies to safeguard their customers’ transactions and accounts. Otherwise, the bill could be quite hefty. According to Wallhub.com, the global cost due to credit card frauds in 2022 was US$219 million. Being able to detect fraudulent transactions. Being able to detect frauds can prevent financial and reputational losses of a credit card issuer.
 ## Data Understanding
 The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. The dataset contains 284,807 credit card transactions and 30 features. 28 variables are anonymised due to confidentiality concern. We were interested in classifying the binary variable “Class”, whose value is 1 if fraud and 0 otherwise.    
-![Image Description](https://drive.google.com/uc?export=view&id=1MqqGVuKfpbLKqzQsdbvwfw0Ky-4T4nCm)
+![Screenshot](Screenshot%202023-09-27%20at%205.26.51%20PM.png)
+
 
 
 The pie chart above shows the highly imbalance between frauds and non-frauds. This issue has to be tackled before we train the models otherwise we will end up having biased results where the model predicts the majority class every time.
