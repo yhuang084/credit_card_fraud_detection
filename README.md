@@ -14,6 +14,7 @@ The pie chart above shows the highly imbalance between frauds and non-frauds. Th
 ## Modeling and Evaluation 
 4 machine learning models: decision tree, random forest, XGBoost and logistic regression were built and evaluated. Confusion matrix is used to visualize the predicted results.In this fraud detection scenario, it's more important to minimize false negatives, the model evaluation metric is **recall**. 
 ![Screenshot 2023-09-27 at 6.01.47 PM](https://live.staticflickr.com/65535/53220306728_e64a68f3f2.jpg)
+
 The plot above is the confusion matrix of the champion logistic regression model. The lower-left quadrant displays the number of false negatives: the number of frauds that the model misclassified as normal transaction. The logistic regression model has the best recall score of 94.9% and performed exceptionally on the test data. So it’s the champion model.
 ## Conclusion
 In an imbalanced data, the sample size of the majority class is significantly larger than the minority class. With an imbalanced data, a machine learning model is more likely to predict the majority class every time and therefore provide a biased result. In this project, we have shown that SMOTE is an effective approach to resample and provide a balanced sample for the later machine learning process. We recommend the logistic regression model because it performed well on the test data. Furthermore, the recall score is highest among all candidate models. The model very successfully classified frauds and non-frauds.
