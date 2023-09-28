@@ -7,12 +7,14 @@ The goal of this project was to build a model to detect fraudulent credit card t
 Fraud detection is essential for companies to safeguard their customers’ transactions and accounts. Otherwise, the bill could be quite hefty. According to Wallhub.com, the global cost due to credit card frauds in 2022 was US$219 million. Being able to detect fraudulent transactions. Being able to detect frauds can prevent financial and reputational losses of a credit card issuer.
 ## Data Understanding
 The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. The dataset contains 284,807 credit card transactions and 30 features. 28 variables are anonymised due to confidentiality concern. We were interested in classifying the binary variable “Class”, whose value is 1 if fraud and 0 otherwise.    
+
 ![Screenshot 2023-09-27 at 5.26.51 PM](https://live.staticflickr.com/65535/53220380584_8e5683e98f.jpg)
 
 The pie chart above shows the highly imbalance between frauds and non-frauds. This issue has to be tackled before we train the models otherwise we will end up having biased results where the model predicts the majority class every time.
 
 ## Modeling and Evaluation 
 4 machine learning models: decision tree, random forest, XGBoost and logistic regression were built and evaluated. Confusion matrix is used to visualize the predicted results.In this fraud detection scenario, it's more important to minimize false negatives, the model evaluation metric is **recall**. 
+
 ![Screenshot 2023-09-27 at 6.01.47 PM](https://live.staticflickr.com/65535/53220306728_e64a68f3f2.jpg)
 
 The plot above is the confusion matrix of the champion logistic regression model. The lower-left quadrant displays the number of false negatives: the number of frauds that the model misclassified as normal transaction. The logistic regression model has the best recall score of 94.9% and performed exceptionally on the test data. So it’s the champion model.
