@@ -1,5 +1,6 @@
 
 ## _Machine Learning Practices with Imbalanced Dataset_
+Yuejia Huang (github.com/yhuang084)
 
 ## Overview
 The goal of this project is to build a model to detect fraudulent credit card transactions. We examine credit card transactions in two days by European cardholders in September 2013. The dataset is highly unbalanced, where only 492 out of 284,807 transactions are frauds. SMOTE approach is selected to resample a balanced sample. The final logistic regression model yields the best recall score of 94.9%.
