@@ -2,11 +2,11 @@
 ## _Machine Learning Practices with Imbalanced Dataset_
 
 ## Overview
-The goal of this project was to build a model to detect fraudulent credit card transactions. We examined credit card transactions in two days by European cardholders in September 2013. The dataset is highly unbalanced, where only 492 out of 284,807 transactions are frauds. SMOTE approach was selected to resample a balanced sample. The final logistic regression model yielded the best recall score of 94.9%.
+The goal of this project is to build a model to detect fraudulent credit card transactions. We examine credit card transactions in two days by European cardholders in September 2013. The dataset is highly unbalanced, where only 492 out of 284,807 transactions are frauds. SMOTE approach is selected to resample a balanced sample. The final logistic regression model yields the best recall score of 94.9%.
 ## Business Understanding 
 Fraud detection is essential for companies to safeguard their customers’ transactions and accounts. Otherwise, the bill could be quite hefty. According to Wallhub.com, the global cost due to credit card frauds in 2022 was US$219 million. Being able to detect frauds can prevent financial and reputational losses of a credit card issuer.
 ## Data Understanding
-The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. The dataset contains 284,807 credit card transactions and 30 features. 28 variables are anonymised due to confidentiality concern. We were interested in classifying the binary variable “Class”, whose value is 1 if fraud and 0 otherwise.    
+The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. The dataset contains 284,807 credit card transactions and 30 features. 28 variables are anonymised and transformed due to confidentiality concern. We were interested in classifying the binary variable “Class”, whose value is 1 if fraud and 0 otherwise.    
 
 ![Screenshot 2023-09-27 at 5.26.51 PM](https://live.staticflickr.com/65535/53220380584_8e5683e98f.jpg)
 
